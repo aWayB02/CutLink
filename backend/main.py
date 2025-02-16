@@ -5,7 +5,6 @@ from backend.utils import get_short_link
 
 
 app = FastAPI()
-shortener = pyshorteners.Shortener()
 
 
 class Link(BaseModel):
