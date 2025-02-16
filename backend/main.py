@@ -24,4 +24,4 @@ def cut_link(link: str):
         return {
             "status:": "error",
             "Error": e
-        }
+        } 
